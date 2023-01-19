@@ -173,6 +173,8 @@ void tareaPrincipal(void *pvParameters) {
     orp = voltage;
     printf("ORP: %0.2f mV", orp);
     printf("\n");
+   
+    xTaskCreatePinnedToCore(&http_test_task, "http_test_task", 8192*4, NULL, 5, NULL,1);
 
     //convertimos temp
     sprintf(ctemp, "%.1f", temp); // Convertir el número a una cadena con dos decimales
