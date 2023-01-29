@@ -62,7 +62,6 @@ _esp_flash_mmap_prefetch_pad_size = 16;
 _esp_memprot_prefetch_pad_size = 0;
 /* Memory alignment size for PMS */
 _esp_memprot_align_size = 0;
-_esp_mmu_block_size = (0x10000);
 /* If BT is not built at all */
 MEMORY
 {
@@ -115,7 +114,7 @@ MEMORY
   /* RTC fast memory (executable). Persists over deep sleep.
 
    */
-  rtc_iram_seg(RWX) : org = 0x400C0000, len = 0x2000 - 0
+  rtc_iram_seg(RWX) : org = 0x400C0000, len = 0x2000
   /* RTC fast memory (same block as above), viewed from data bus */
   rtc_data_seg(RW) : org = 0x3ff80000, len = 0x2000 - 0
   /* RTC slow memory (data accessible). Persists over deep sleep.
@@ -125,7 +124,8 @@ MEMORY
      Start of RTC slow memory is reserved for ULP co-processor code + data, if enabled.
 
   */
-  rtc_slow_seg(RW) : org = 0x50000000, len = 0x2000
+  rtc_slow_seg(RW) : org = 0x50000000 + 0,
+                                     len = 0x2000 - 0
   /* external memory */
   extern_ram_seg(RWX) : org = 0x3F800000,
                                      len = 0x400000

@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-C:/Users/alvar/Desktop/sbc/ADC/build/CMakeFiles/bootloader
-C:/Users/alvar/Desktop/sbc/ADC/build/CMakeFiles/bootloader.rule
-C:/Users/alvar/Desktop/sbc/ADC/build/CMakeFiles/bootloader-complete.rule
-C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/Users/user2/Desktop/tcp/build/CMakeFiles/bootloader
+C:/Users/user2/Desktop/tcp/build/CMakeFiles/bootloader.rule
+C:/Users/user2/Desktop/tcp/build/CMakeFiles/bootloader-complete.rule
+C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

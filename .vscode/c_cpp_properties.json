@@ -2,7 +2,7 @@
     "configurations": [
         {
             "name": "ESP-IDF",
-            "compilerPath": "C:\\Espressif\\tools\\xtensa-esp32-elf\\esp-2022r1-11.2.0\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe",
+            "compilerPath": "C:\\Espressif\\tools\\xtensa-esp32-elf\\esp-2021r2-patch3-8.4.0\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "includePath": [
@@ -10,7 +10,7 @@
                 "${config:idf.espIdfPathWin}/components/**",
                 "${config:idf.espAdfPath}/components/**",
                 "${config:idf.espAdfPathWin}/components/**",
-                "C:/Users/alvar/Desktop/sbc/ADC/components/ssd1306",
+                "C:/Users/user2/Desktop/tcp/components/ssd1306",
                 "${workspaceFolder}/**"
             ],
             "browse": {
@@ -19,7 +19,7 @@
                     "${config:idf.espIdfPathWin}/components",
                     "${config:idf.espAdfPath}/components/**",
                     "${config:idf.espAdfPathWin}/components/**",
-                    "C:/Users/alvar/Desktop/sbc/ADC/components/ssd1306",
+                    "C:/Users/user2/Desktop/tcp/components/ssd1306",
                     "${workspaceFolder}"
                 ],
                 "limitSymbolsToIncludedHeaders": false

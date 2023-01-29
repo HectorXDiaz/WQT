@@ -4,19 +4,16 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Espressif/frameworks/esp-idf-v5.0/components/bootloader/subproject"
-  "C:/Users/alvar/Desktop/sbc/ADC/build/bootloader"
-  "C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix"
-  "C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/tmp"
-  "C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src"
-  "C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Espressif/frameworks/esp-idf-v4.4.2/components/bootloader/subproject"
+  "C:/Users/user2/Desktop/tcp/build/bootloader"
+  "C:/Users/user2/Desktop/tcp/build/bootloader-prefix"
+  "C:/Users/user2/Desktop/tcp/build/bootloader-prefix/tmp"
+  "C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src"
+  "C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/user2/Desktop/tcp/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
-if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/alvar/Desktop/sbc/ADC/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
-endif()
